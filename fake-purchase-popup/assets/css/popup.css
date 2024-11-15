@@ -1,0 +1,79 @@
+.fpp-popup {
+    position: fixed;
+    max-width: 350px;
+    background: #fff;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 15px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    z-index: 999999;
+}
+
+.fpp-popup.fpp-show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fpp-bottom-left {
+    left: 20px;
+    bottom: 20px;
+}
+
+.fpp-bottom-right {
+    right: 20px;
+    bottom: 20px;
+}
+
+.fpp-top-left {
+    left: 20px;
+    top: 20px;
+}
+
+.fpp-top-right {
+    right: 20px;
+    top: 20px;
+}
+
+.fpp-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.fpp-product-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.fpp-text {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.fpp-time {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.fpp-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #666;
+    padding: 5px;
+    line-height: 1;
+}
+
+.fpp-close:hover {
+    color: #333;
+}

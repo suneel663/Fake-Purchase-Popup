@@ -1,0 +1,20 @@
+.fpp-settings-wrapper {
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.fpp-settings-wrapper .form-table th {
+    width: 200px;
+}
+
+.fpp-color-picker {
+    width: 80px !important;
+}
+
+.fpp-preview {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
